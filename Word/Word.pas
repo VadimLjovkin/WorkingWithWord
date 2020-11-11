@@ -28,7 +28,7 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.ButtonReplaceClick(Sender: TObject);   //автозамена в выбранном документе Word
-var
+var                                                     //изучаем тут: https://forum.vingrad.ru/forum/topic-84634/view-all.html
   Word: OleVariant;
 
 function FindAndReplace(FindText, NewText : string):boolean; {функция поиска и замены}
